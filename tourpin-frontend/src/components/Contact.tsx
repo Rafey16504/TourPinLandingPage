@@ -13,7 +13,7 @@ export default function Contact() {
   const [waitingCount, setWaitingCount] = useState<number | null>(null);
 
 useEffect(() => {
-  fetch(`${process.env.GOOGLE_SHEETS_SCRIPT_URL}`) // no params → just count
+  fetch(`${process.env.REACT_APP_GOOGLE_SHEETS_SCRIPT_URL}`) // no params → just count
     .then((res) => res.json())
     .then((data) => setWaitingCount(data.count))
     .catch((err) => console.error("Error fetching count:", err));
@@ -49,7 +49,7 @@ useEffect(() => {
     });
 
     fetch(
-      `${process.env.GOOGLE_SHEETS_SCRIPT_URL}?${params.toString()}`
+      `${process.env.REACT_APP_GOOGLE_SHEETS_SCRIPT_URL}?${params.toString()}`
     )
       .then((res) => res.json())
       .then(() => {
