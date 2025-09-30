@@ -92,6 +92,7 @@ export default function TeamAndVision() {
       setActiveIndex((prev) => (prev + 1) % values.length);
     }, 1500);
     return () => clearInterval(timer);
+    // eslint-disable-next-line
   }, [hovered]);
 
   return (

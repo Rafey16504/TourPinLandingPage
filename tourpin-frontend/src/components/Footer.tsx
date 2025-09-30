@@ -1,6 +1,5 @@
-import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import {Linkedin} from "lucide-react";
 import { FaXTwitter } from 'react-icons/fa6';
-import { SiTiktok } from "react-icons/si"; 
 import React from "react";
 
 export default function Footer() {
