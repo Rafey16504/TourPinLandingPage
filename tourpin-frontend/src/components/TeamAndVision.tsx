@@ -61,27 +61,27 @@ export default function TeamAndVision() {
   const team = [
     {
       name: "Emanuel Mora Diaz",
-      role: "CEO",
+      role: "FOUNDER & CEO",
       photo: "/team1.jpg",
-      phrase: "The best tourism ecosystem, for all the tourists.",
+      phrase: "The best tourism ecosystem, for all tourists.",
     },
     {
       name: "Marcus Chan",
-      role: "CTO",
+      role: "CO-FOUNDER & CTO",
       photo: "/team2.png",
       phrase: "Let us make your travelling worths.",
     },
     {
       name: "Abdul Rafey",
-      role: "Frontend Director",
+      role: "DIRECTOR OF FRONTEND",
       photo: "/team3.jpg",
       phrase: "Designing moments, not just screens.",
     },
     {
       name: "Shri Srivastava",
-      role: "Backend Developer",
+      role: "FULL STACK DEVELOPER",
       photo: "/team4.jpg",
-      phrase: "Connecting cultures through meaningful stories.",
+      phrase: "Building the future of travel.",
     },
   ];
 
@@ -228,7 +228,7 @@ export default function TeamAndVision() {
                   />
 
                   {/* Info below card */}
-                  <div className="px-2 mt-48">
+                  <div className="px-10 mt-48">
                     <span className="text-sm text-green-600 font-medium">
                       {m.role}
                     </span>
